@@ -1,0 +1,11 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+results
+.vscode
+.Rproj
+data/
+sandbox/
+software/
+*Rproj
