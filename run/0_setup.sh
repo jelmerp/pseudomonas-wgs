@@ -2,11 +2,8 @@
 
 # Install Pseudofinder
 mkdir software && cd software || exit
-
 git clone https://github.com/filip-husnik/pseudofinder.git
-
 cd pseudofinder/modules || exit
-
 micromamba create -y -p /fs/ess/PAS0471/jelmer/conda/pseudofinder -f software/pseudofinder/modules/environment.yml
 
 echo '#!/bin/sh'" \

@@ -4,8 +4,6 @@
 #SBATCH --time=1:00:00
 #SBATCH --cpus-per-task=1
 #SBATCH --mem=4G
-#SBATCH --nodes=1
-#SBATCH --ntasks=1
 #SBATCH --job-name=intersect_pseudogenes
 #SBATCH --output=slurm-intersect_pseudogenes-%j.out
 
